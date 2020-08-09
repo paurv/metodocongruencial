@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Css/estilos.css">
+<link rel="shortcut icon" href="logo.png"/>
+<title>MtCng</title>
+</head>
+<body>
+  <h2 id="titulo">Metodo Congruencial</h2>
+  <div class="contenedor">
+    <div class="row-est">
+      <div class="caja-gen">
+        <form class="form-est">
+          <div class="row">
+            <label for="semilla">Semilla</label>
+            <input type="number" id="id-semilla" name="semilla">
+          </div><br>
+          <div class="row">
+            <label for="a">a</label> 
+            <input type="number" id="id-a" name="a" >
+          </div><br>  
+          <div class="row">
+            <label for="m">m</label>
+            <input type="number" id="id-m" name="m" >
+          </div><br>  
+          <div class="row">
+            <label for="c">c</label>
+            <input type="number" id="id-c" name="c" >
+          </div><br>  
+          <div>
+            <label for="gen">Cuantos datos desea generar?</label>
+            <input type="number" id="id-gen" name="gen" >
+          </div><br>  
+          <button class="myButton" type="button" onclick="cargarDatos()">Generar</button>
+        </form>
+      </div>
+    </div>
+    <div style="display:inline; width: 540px; text-align: center;">
+      <table id="t01" style="width: 520px;" >
+        <tr>
+          <th></th>
+          <th></th> 
+          <th>C1</th>
+          <th>C2</th>
+          <th>C3</th>
+        </tr>   
+        <tr>
+          <th id="tf-1" value="0">No.</th>
+          <th>X<sub>n</sub></th> 
+          <th>a * X<sub>n</sub></th>
+          <th>C1 + c</th>
+          <th>C2 mod m</th>
+        </tr>   
+      </table><br>
+    </div>
+  </div>
+<script src="js/controlador.js"></script>
+</body>
+</html>
