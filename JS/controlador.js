@@ -1,9 +1,3 @@
-window.onload = function(){
-    console.log("pagina cargada ");
-    var x = mod(292,32);
-    console.log(x);
-}
-
 function cargarDatos(){
     document.getElementById('t01').innerHTML=`<table id="t01" style="width: 520px;" >
                                                 <tr><th></th><th></th><th>C1</th><th>C2</th><th>C3</th>
