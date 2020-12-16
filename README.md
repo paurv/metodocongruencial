@@ -10,4 +10,4 @@ decimal, posteriormente se toma la segunda semilla y se procede
 a repetir los pasos anteriores, esto se hará tantas veces como lo
 requiera el problema.
 
-![calculadora](http://url/to/img.png)
+![calculadora](https://github.com/paurv/metodocongruencial/blob/master/metodo_congruencial.png)
