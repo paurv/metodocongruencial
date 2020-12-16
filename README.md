@@ -1,7 +1,7 @@
-# metodocongruencial
+# Metodo Congruencial
 Pequeña calculadora para generar números pseudo-aleatorios a traves del metodo congruencial.
 
-## Metodo Congruencial
+## Definicion
 Este método comienza con un número inicial o semilla, este es
 elevado al cuadrado, del resultado de la operación se seleccionan
 cierta cantidad de dígitos del medio (esta vendrá a ser la segunda
