@@ -2,12 +2,24 @@
 Pequeña calculadora para generar números pseudo-aleatorios a traves del metodo congruencial.
 
 ## Definicion
-Este método comienza con un número inicial o semilla, este es
-elevado al cuadrado, del resultado de la operación se seleccionan
-cierta cantidad de dígitos del medio (esta vendrá a ser la segunda
-semilla), la selección de números es colocada después del punto
-decimal, posteriormente se toma la segunda semilla y se procede
-a repetir los pasos anteriores, esto se hará tantas veces como lo
-requiera el problema.
+Los generadores
+congruenciales lineales generan una serie de números pseudo
+aleatorios de tal forma que se puede generar el siguiente a partir del último número
+derivado, es decir, que el número Xn+1 es generado a partir de Xn.
+
+La relación de recurrencia para el método
+congruencial mixto es:
+
+`Xn+1 = ( a * Xn + c) mod m`
+
+Donde:
+
+X0 = semilla (X0 > 0 )
+
+a = multiplicador ( a >0 )
+
+c = constante aditiva ( c >0 )
+
+m = módulo ( m >X 0 , m >a y m>c )
 
 ![calculadora](https://github.com/paurv/metodocongruencial/blob/master/metodo_congruencial.png)
